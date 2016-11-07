@@ -1,0 +1,25 @@
+{
+    "name": "AlbertMorenoDEV/kata-online-store",
+    "description": "Online Store, Toby Retallick",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "authors": [
+        {
+            "name": "Albert Moreno",
+            "email": "albert.moreno.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "AlbertMorenoDEV\\KataOnlineStore\\": "src/"
+        }
+    }
+}
